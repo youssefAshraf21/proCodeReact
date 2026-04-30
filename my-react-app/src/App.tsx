@@ -21,6 +21,7 @@ import UpdateList from './UpdateList'
 import UpdateObj2 from './UpdateObj2'
 import ToDoList from './ToDoList'
 import UseEffect from './UseEffect'
+import DigitalClock from './DigitalClock'
 type Item = {
   id: number;
   name: string;
@@ -76,6 +77,8 @@ function App() {
       <UpdateObj2 />
       <ToDoList />
       <UseEffect />
+      <br/>
+      <DigitalClock />
       <Footer />
       
 

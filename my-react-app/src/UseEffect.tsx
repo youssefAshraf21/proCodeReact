@@ -13,7 +13,7 @@ function handleResize() {
 useEffect(() => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-},[]);
+},[]);  
 
 useEffect(() => {
     document.title = `${width} x ${height}`;
