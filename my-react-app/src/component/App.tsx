@@ -20,6 +20,7 @@ import UpdateObj from './UpdateObj'
 import UpdateList from './UpdateList'
 import UpdateObj2 from './UpdateObj2'
 import ToDoList from './ToDoList'
+import UseEffect from './UseEffect'
 type Item = {
   id: number;
   name: string;
@@ -74,6 +75,7 @@ function App() {
       <UpdateList />
       <UpdateObj2 />
       <ToDoList />
+      <UseEffect />
       <Footer />
       
 
