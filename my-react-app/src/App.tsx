@@ -78,7 +78,9 @@ function App() {
       <ToDoList />
       <UseEffect />
       <br/>
+      
       <DigitalClock />
+
       <Footer />
       
 
